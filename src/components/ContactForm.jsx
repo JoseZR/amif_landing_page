@@ -37,7 +37,7 @@ export function ContactForm() {
       const data = await res.json()
       if (data.status) {
         const statusEmail = await fetch(
-          'https://hfmexico.mx/foro-electromovilidad/backend/email/send-email-ecomondo',
+          'https://hfmexico.mx/foro-electromovilidad/backend/email/send-email-ssm-amif-landing',
           requestOptions
         )
         const dataEmail = await statusEmail.json()
