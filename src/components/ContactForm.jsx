@@ -31,7 +31,7 @@ export function ContactForm() {
     try {
       setSendStatus(true)
       const res = await fetch(
-        'https://hfmexico.mx/ecomondo/newsletter/landingPage.php',
+        'https://ssmcocktail.igeco.mx//backend/landingPage.php',
         requestOptions
       )
       const data = await res.json()
